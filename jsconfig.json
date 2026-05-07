@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "checkJs": false,
+    "jsx": "preserve",
+    "module": "esnext",
+    "target": "es2020",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "allowJs": true
+  },
+  "include": ["app/**/*", "components/**/*", "next.config.mjs"],
+  "exclude": ["node_modules", ".next", "out"]
+}
