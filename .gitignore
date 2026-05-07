@@ -3,6 +3,9 @@ node_modules/
 .pnp
 .pnp.js
 
+# testing
+coverage/
+
 # next.js
 .next/
 .next.bak-*/
@@ -22,7 +25,15 @@ yarn-error.log*
 
 # local env
 .env*.local
+.env
 
 # editor
 .vscode/
 .idea/
+
+# deployment
+.vercel/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
